@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colour Flipper</title>
+</head>
+<body>
+    <div id="col">Color Flipper
+        <span id="color">#FFFFF</span>
+    </div>
+    <div id="wrap">
+          <div id="con">
+            <button id="but"> change colour</button>
+          </div>
+    </div>
+    <style>
+        
+        #col{
+            margin: 0;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            color: rgb(242, 39, 80);
+            font-size: 38px;
+            font-family:cursive;
+        }
+        #color{
+            color: rgb(242, 39, 80);
+            font-size: 38px;
+            font-family:cursive;
+            float: right;
+            margin:0;
+        }
+        #wrap{
+            margin: 0;
+            min-width: 800px;
+            min-height: 350px;
+            background-color: rgb(249, 249, 249);
+        }
+        #but{
+            margin:350px auto;
+            margin-left: 650px;
+            text-align: center;
+            color: #f9f8f8;
+             background-color: rgb(235, 24, 24);
+            font-size: 38px;
+            font-family:cursive;
+            padding: 10px;
+            border-radius: 14px;
+        }
+    </style>
+    <script>
+        const but=document.getElementById("but");
+        const wrap=document.getElementById("wrap");
+        const color=document.getElementById("color");
+        const hex=[0,1,2,3,4,5,6,7,8,9,'A','B','C','D','E','F']
+        but.addEventListener("click",function(){
+              let text="#"
+              for(let i=1;i<=6;i++){
+                text+=getcol();
+              }
+              color.innerHTML=text;
+              wrap.style.background=text;
+        })
+        function getcol(){
+            let index=Math.floor(Math.random()*16);
+            return hex[index]
+        }
+    </script>
+</body>
+</html>

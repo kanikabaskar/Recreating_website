@@ -1,0 +1,46 @@
+body{
+    background-color:#2B3499;
+
+}
+#box{
+    background-color: #FFD099;
+    color: #2B3499;
+    display: block;
+    margin: 200px auto;
+    max-width: 500px;
+    padding: 20px;
+ min-height: 300px;
+ border-radius: 10px;
+ box-shadow:1px 1px 25px 1px beige ;
+}
+#input{
+    text-align: left;
+    display:block;
+    margin:10px 10px  ;
+    font-size:20px;
+    border-radius:8px;
+    width: 440px;
+    padding: 10px;
+    color: black;
+    box-shadow:1px 1px  #2B3499;
+
+}
+button{
+    font-size: 20px;
+    font-weight:bold;
+    margin: 15px auto 15px 100px;
+    width: 300px;
+    padding: 10px;
+ border-radius: 20px;
+ background-color:#2B3499;
+ color: #FFD099;
+}
+
+#result{
+    color: rgb(43, 0, 255);
+    font-weight: 200px;
+    font-size: 40px;
+    text-align: center;
+    
+}
+    
