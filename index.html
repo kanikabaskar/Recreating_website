@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fahrenheit To Celsius </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="box">
+        <div id="head">
+            <h1 id="head"> Fahrenheit To Celsius Converter</h1>
+        </div>
+        <div >
+            <input id="input" type="text" placeholder="Enter Temperature in Fahrenheit">
+        </div>
+        <div id="button">
+            <button onclick="convert()">Convert to Celsius</button>
+        </div>
+        <div id="result">
+         
+        </div>
+     <script >
+       function convert(){
+        let fvinput= Number(document.getElementById("input").value)
+        let clv=((fvinput-32)*5)/9
+        let result=document.getElementById("result")
+        result.innerHTML= clv.toFixed(2)+"&degC"
+       } 
+     </script>
+    </div>
+
+</body>
+
+</html>

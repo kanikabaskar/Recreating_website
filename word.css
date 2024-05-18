@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(21, 221, 184);
+
+}
+
+h1 {
+    color: #8e0606;
+    text-align: center;
+}
+
+#box {
+    background-color: #F0DBAF;
+    margin: 200px auto;
+    border-radius: 10px;
+    padding: 10px;
+    width: 800px;
+    box-shadow: 1px 1px 30px 10px cadetblue ;
+}
+
+textarea {
+    border-radius: 4px;
+    background-color: #f0b9af;
+    padding: 5px 5px;
+    margin: 20px 150px;
+    min-width: 500px;
+    min-height: 120px;
+    font-size: 20px;
+    box-shadow: 1px 1px 10px #ccc ;
+
+}
+#result{
+    margin: 50px auto;
+    text-align: center;
+    text-decoration: solid black;
+    font-size: 30px;
+}
+#button{
+    font-size: 25px;
+    margin: 15px 250px 15px ;
+    width: 300px;
+    border-radius: 15px;
+    color: rgb(147, 6, 6);
+    background-color: rgba(128, 128, 128, 0.646);
+}
