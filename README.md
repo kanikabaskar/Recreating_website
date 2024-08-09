@@ -7,7 +7,7 @@ Pre-Final Year Student
 - 🤔 I’m looking for help with Placements 
 - 💬 Ask me about Tech
 - 📫 How to reach me :
-<br />[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/kanika-b-405373255/)
+<br />[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/kanika-b-405373255/)  [<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>]()
 - 😄 Pronouns: Techie
 - ⚡ Fun fact: I know to cook.
 
@@ -16,8 +16,7 @@ Pre-Final Year Student
 ### IDE and Tools I Use
 <img height="50" width="50" src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"/> <img height="50" width="50" src="https://img.icons8.com/color/50/000000/git.png"/> <img height="50" width="50" src="https://img.icons8.com/color/48/000000/figma--v1.png"/> 
 
-![Hareesh's GitHub stats](https://github-readme-stats.vercel.app/api?username=hareesh-r&theme=dark&show_icons=true&&hide=issues,contribs)
+![LeetCode Stats](https://leetcard.jacoblin.cool/kanikabaskar?theme=dark&font=Buda)
 
-[![Leetcode Stats](https://leetcard.jacoblin.cool/hareeshprogrammer?ext=contest&theme=dark)](https://leetcode.com/hareeshprogrammer)
+![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=kanikabaskar&bg_color=0d0c0d&color=fffaff&line=e506d6&point=f4f3f3&area=true&hide_border=true)
 
-[![Hareesh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=hareesh-r&bg_color=000000&color=ffffff&line=51f565&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
